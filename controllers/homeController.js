@@ -1,4 +1,4 @@
-angular.module('myPortfolio').controller('homeController', ['$scope', '$timeout', function($scope, $timeout) {
+angular.module('myPortfolio').controller('homeController', ['$scope', '$interval', function($scope, $interval) {
     
     $scope.name = 'Jainam Shah';
     
@@ -6,22 +6,16 @@ angular.module('myPortfolio').controller('homeController', ['$scope', '$timeout'
         
         'Software Engineer',
         'Web Developer',
-        'Designer'
+        'Designer',
+        'Tech-Enthusiast',
+        'Music Lover'
         
     ];
     
-    $scope.test1 = 'Designer';
-    
-    $timeout(function(){
-        
-        $scope.test2 = ', a Web Developer';
-        
-            $timeout(function(){
-                
-                $scope.test3 = " and a Software Engineer!";
-                
-            }, 3000);
-        
-    }, 3000);
+    $scope.showedItem = 0;
+
+        $interval(function() {
+            $scope.showedItem = ++$scope.showedItem % $scope.traits.length;
+        }, 1000);
 
 }]);

@@ -5,8 +5,7 @@ angular.module('myPortfolio').controller('aboutmeController', ['$scope', functio
     $scope.questionaire = {
         
         'education': 'New Jersey Institute of Technology',
-        'major': 'Computer Science',
-        'degree': 'Masters',
+        'degree': 'Masters Computer Science',
         'expectedGraduation': 'December 2017',
         'interests': '["Coding", "Design", "Music", "Dancing", "Travelling"]',
         'workExperience.latest': 'Company: "Hilin Life Products Inc."',

@@ -32,7 +32,8 @@
     <script src="controllers/connectController.js"></script>
     <script src="routes/route.js"></script> 
     <script src="directives/footerDirective.js"></script>  
-    <script src="directives/headernavdirective.js"></script>  
+    <script src="directives/headerNavDirective.js"></script>
+    <script src="directives/socialDirective.js"></script>  
       
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -42,6 +43,9 @@
 
     <!-- Custom styles for this template -->
     <link href="assets/css/cover.css" rel="stylesheet">
+      
+    <!-- Font Awesome Stylesheet -->
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">  
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -64,15 +68,18 @@
 
         <div header-nav-directive></div>
 
-        <div ng-view></div>
+        <div ng-view></div>  
    
         <div footer-directive></div>
+            
+<!--        <div social-directive></div> -->
 
         </div>
 
       </div>
 
     </div>
+       
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
