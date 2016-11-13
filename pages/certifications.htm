@@ -1,0 +1,23 @@
+    <div class="container-fluid">
+            <div class="tabs" style="padding-bottom: 30px;">
+                <ul class="nav nav-pills">
+                  <li role="presentation"><a href="#/portfolio/experience">Experience</a></li>
+                  <li role="presentation"><a href="#/portfolio/projects">Projects</a></li>
+                  <li role="presentation" class="active"><a href="#/portfolio/certifications">Certifications</a></li>
+                  <li role="presentation"><a href="#/portfolio/resume">Resume</a></li>
+                </ul>
+            </div>
+    </div>
+    <div style="overflow: scroll; height: 400px; padding-left: 15px; padding-right: 15px;">
+            <div class="media" ng-repeat="cert in certi">
+              <div class="media-left media-middle">
+                <a href="#">
+                  <img class="media-object" src="{{cert.thumbnail}}" alt="image" style="height: 70px; width: auto;">
+                </a>
+              </div>
+              <div class="media-body">
+                  <h4>{{cert.title}}</h4>
+                  <h5><b><u>Authority:</u></b> {{cert.authority}}</h5>
+              </div>
+            </div>
+     </div>

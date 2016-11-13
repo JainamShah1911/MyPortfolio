@@ -1,2 +1,19 @@
-{{name}}</br>
+    <div class="container-fluid">
+        <h1>Who am I?</h1>
+        <p class="lead">I`m <b>{{name}}</b>, a tech-enthu from New Jersey, currently pursuing my {{degree}} from {{school}} with expected graduation in December 2017.</p>
+        <div>
+            <a class="btn btn-lg btn-default" href="{{mailTo}}{{name}}!" role="button"><i class="fa fa-envelope" aria-hidden="true"></i> Let`s Connect!</a>
+            <a class="btn btn-lg btn-default" href="{{resumePDF}}" role="button" target="_blank"><i class="fa fa-anchor" aria-hidden="true"></i> View Resume!</a></div>
+    </div><br>
 
+    <div class="row marketing">
+        <div class="col-lg-6">
+          <h3><i class="fa fa-bath" aria-hidden="true"></i> Find Me:</h3>
+          <p class="lead"> {{address}}<br>{{apt}}<br>{{city}}</p>
+        </div>
+
+        <div class="col-lg-6">
+          <h3><i class="fa fa-handshake-o" aria-hidden="true"></i> Reach Me:</h4>
+          <p class="lead"><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="{{mailTo}} {{name}}!">{{email}}</a><br><i class="fa fa-mobile" aria-hidden="true"></i> {{cellNo}}<br><a href="{{location}}" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i> Google Map Location</p>
+        </div>
+    </div>

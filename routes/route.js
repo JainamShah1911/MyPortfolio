@@ -10,7 +10,7 @@ angular.module('myPortfolio').config(function($routeProvider){
     
         .when ('/portfolio', {
         
-            templateUrl: 'pages/portfolio.htm',
+            templateUrl: 'pages/experience.htm',
             controller: 'portfolioController'
     })
     
@@ -24,6 +24,34 @@ angular.module('myPortfolio').config(function($routeProvider){
         
             templateUrl: 'pages/connect.htm',
             controller: 'connectController'
+    }) 
+    
+        .when ('/portfolio/experience', {
+        
+            templateUrl: 'pages/experience.htm',
+            controller: 'portfolioController'
+        
+    })
+    
+        .when ('/portfolio/projects', {
+        
+            templateUrl: 'pages/projects.htm',
+            controller: 'portfolioController'
+        
+    })
+    
+        .when ('/portfolio/certifications', {
+        
+            templateUrl: 'pages/certifications.htm',
+            controller: 'portfolioController'
+        
+    })
+    
+        .when ('/portfolio/resume', {
+        
+            templateUrl: 'pages/resume.htm',
+            controller: 'portfolioController'
+        
     })
 
 });

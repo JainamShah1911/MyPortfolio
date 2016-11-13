@@ -1,0 +1,24 @@
+    <div class="container-fluid">
+            <div class="tabs" style="padding-bottom: 30px;">
+                <ul class="nav nav-pills">
+                  <li role="presentation"><a href="#/portfolio/experience">Experience</a></li>
+                  <li role="presentation" class="active"><a href="#/portfolio/projects">Projects</a></li>
+                  <li role="presentation"><a href="#/portfolio/certifications">Certifications</a></li>
+                  <li role="presentation"><a href="#/portfolio/resume">Resume</a></li>
+                </ul>
+            </div>
+    </div>
+    <div style="overflow: scroll; height: 400px; padding-left: 15px; padding-right: 15px;">
+            <div class="media" ng-repeat="project in projects">
+              <div class="media-left media-middle">
+                <a href="{{project.info}}">
+                  <img class="media-object" src="{{project.thumbnail}}" alt="image" style="height: 70px; width: auto;">
+                </a>
+              </div>
+              <div class="media-body" style="padding-left: 15px;">
+                  <h4><b><u>{{project.title}}</u></b>, <i><u>{{project.company}}</u></i></h4>
+                  <p ng-bind-html="project.description | unsafe"</p>
+                  <h5>{{project.fromDate}} - {{project.toDate}}</h5>
+              </div>
+            </div>
+     </div>
