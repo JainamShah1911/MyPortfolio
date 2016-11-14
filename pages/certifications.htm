@@ -8,8 +8,8 @@
                 </ul>
             </div>
     </div>
-    <div style="height: 400px; padding-left: 15px; padding-right: 15px; overflow-x: hidden; overflow-y: scroll;">
-            <div class="media" ng-repeat="cert in certi">
+    <div class="scrollPane">
+        <div class="media" ng-repeat="cert in certi">
               <div class="media-left media-middle">
                 <a href="#">
                   <img class="media-object" src="{{cert.thumbnail}}" alt="image" style="height: 70px; width: auto;">
@@ -19,5 +19,5 @@
                   <h4>{{cert.title}}</h4>
                   <h5><b><u>Authority:</u></b> {{cert.authority}}</h5>
               </div>
-            </div>
-     </div>
+        </div>
+    </div>
