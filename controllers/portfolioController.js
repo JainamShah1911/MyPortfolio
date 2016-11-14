@@ -70,7 +70,7 @@ angular.module('myPortfolio').controller('portfolioController', ['$scope', funct
         {
             "title":"Library Management System",
             "company":"NJIT",
-            "info":"#",
+            "info":"https://web.njit.edu/~pkn7/LMSv2/",
             "thumbnail":"http://www.logicearth.com/components/com_easyblog/themes/wireframe/images/placeholder-image.png",
             "description":"• Developed a PHP and JS based Online Library Management System.<br>• Wrote Complex SQL queries to output multiple required scenarios.<br>• Built Custom UI using CSS3 and HTML5 templates.",
             "fromDate": "January, 2016",
