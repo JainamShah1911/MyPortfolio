@@ -138,6 +138,23 @@ body {
     overflow-y: scroll;
 }
 
+/* Handle the weird scrollbar on Windows */
+::-webkit-scrollbar { 
+   width: 0px;/* remove scrollbar space */ 
+   background: transparent; /* optional: just make scrollbar invisible */ 
+}
+
+.media-object {   
+    height: 70px; 
+    width: auto;    
+}
+
+.aboutme {
+    text-align: center; 
+    font-family: 'Monaco', 'Courier New'; 
+    font-size: 16px;
+}
+
 /*
  * Footer
  */
