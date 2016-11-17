@@ -18,7 +18,7 @@ angular.module('myPortfolio').controller('portfolioController', ['$scope', funct
             "title":"Software Developer",
             "company":"Schmitt & Associates",
             "info":"http://www.sna-tech.com/about/",
-            "thumbnail":"assets/thumbnails/JainamShah_sna.png",
+            "thumbnail":"http://sna-tech.com/wp-content/uploads/2014/08/logo_final_72_white.png",
             "location":"Newark, New Jersey",
             "fromDate": "November, 2016",
             "toDate": "Present"
@@ -31,7 +31,7 @@ angular.module('myPortfolio').controller('portfolioController', ['$scope', funct
             "title":"Knowhen.com",
             "company":"Hilin Life Products",
             "info":"https://www.knowhen.com/",
-            "thumbnail":"http://i.picresize.com/images/2016/11/13/PHeW.png",
+            "thumbnail":"assets/thumbnails/JainamShah_knowhen.png",
             "description":"• Knowhen.com is the brand site by Hilin Life Products Inc.<br>• Developed the full stack framework for the site.<br>• Designed Wireframes and prototypes using Axure.<br>• Developed product purchase & authorization module using Authorize.net API.<br>• Modified Meta tags to improve the site`s SEO scores.",
             "fromDate": "June, 2016",
             "toDate": "Present"
@@ -41,7 +41,7 @@ angular.module('myPortfolio').controller('portfolioController', ['$scope', funct
             "title":"knowhenblog.com",
             "company":"Hilin Life Products",
             "info":"https://www.knowhen.com/blog/",
-            "thumbnail":"https://www.knowhen.com/images/knowhenMainBlog.png",
+            "thumbnail":"assets/thumbnails/JainamShah_knowhenBlog.png",
             "description":"• Knowhenblog.com is the blog steered by knowhen.com<br>• Developed the blog UI for hosting articles and the backend using Joomla.<br>• Integrated social platform plugins with commenting options.",
             "fromDate": "June, 2016",
             "toDate": "Present"
