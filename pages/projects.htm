@@ -1,24 +1,13 @@
-    <div class="container-fluid">
-            <div class="tabs" style="padding-bottom: 30px;">
-                <ul class="nav nav-pills">
-                  <li role="presentation"><a href="#/portfolio/experience">Experience</a></li>
-                  <li role="presentation" class="active"><a href="#/portfolio/projects">Projects</a></li>
-                  <li role="presentation"><a href="#/portfolio/certifications">Certifications</a></li>
-                  <li role="presentation"><a href="#/portfolio/resume">Resume</a></li>
-                </ul>
-            </div>
+
+<div class="scrollPane">
+<div class="row">
+    <div ng-repeat="project in projects">
+        <div class="clearfix" ng-if="$index % 3 == 0"></div>
+        <div style="background-color:grey;border: 2px solid;border-color: black;" class="col-md-4">
+              <a href="{{project.info}}" target="_blank"><h4><b><u>{{project.title}}</u></b>, <i><u>{{project.company}}</u></i></h4></a>
+              <p ng-bind-html="project.description | unsafe"</p>
+              <h5>{{project.fromDate}} - {{project.toDate}}</h5>
+        </div>
     </div>
-    <div class="scrollPane">
-            <div class="media" ng-repeat="project in projects">
-              <div class="media-left media-middle">
-                <a href="{{project.info}}" target="_blank">
-                  <img class="media-object" src="{{project.thumbnail}}" alt="image">
-                </a>
-              </div>
-              <div class="media-body" style="padding-left: 15px;">
-                  <h4><b><u>{{project.title}}</u></b>, <i><u>{{project.company}}</u></i></h4>
-                  <p ng-bind-html="project.description | unsafe"</p>
-                  <h5>{{project.fromDate}} - {{project.toDate}}</h5>
-              </div>
-            </div>
-     </div>
+</div>
+</div>

@@ -42,7 +42,7 @@ angular.module('myPortfolio').controller('portfolioController', ['$scope', funct
             "company":"Hilin Life Products",
             "info":"https://www.knowhen.com/blog/",
             "thumbnail":"assets/thumbnails/JainamShah_knowhenBlog.png",
-            "description":"• Knowhenblog.com is the blog steered by knowhen.com<br>• Developed the blog UI for hosting articles and the backend using Joomla.<br>• Integrated social platform plugins with commenting options.",
+            "description":"• Knowhenblog.com is the blog steered by knowhen.com<br>• Developed the blog UI for hosting articles and the backend using Joomla.<br>• Integrated social platform plugins with commenting options.<br><br><br><br>",
             "fromDate": "June, 2016",
             "toDate": "Present"
         },
@@ -52,7 +52,7 @@ angular.module('myPortfolio').controller('portfolioController', ['$scope', funct
             "company":"Hilin Life Products",
             "info":"https://www.knowhen.com/",
             "thumbnail":"assets/thumbnails/JainamShah_storeLocator.png",
-            "description":"• Store Locator is developed using Google Map API that will guide customers to their nearest stores with knowhen poducts.<br>• Also they can get navigate to the specific store using Google Direction API.<br>• platform is designed using Google`s Places, Geolocation, Direction, Maps APIs and joomla Plugin for location.",
+            "description":"• Store Locator is developed using Google Map API that will guide customers to their nearest stores with products.<br>• Also they can navigate to the specific store using Google Direction API.<br>• platform is designed using Google`s Places, Geolocation, Direction, Maps APIs and joomla Plugin for location.",
             "fromDate": "August, 2016",
             "toDate": "October, 2016"
         },
@@ -72,7 +72,7 @@ angular.module('myPortfolio').controller('portfolioController', ['$scope', funct
             "company":"NJIT",
             "info":"https://web.njit.edu/~pkn7/LMSv2/",
             "thumbnail":"assets/thumbnails/JainamShah_libraryManagement.png",
-            "description":"• Developed a PHP and JS based Online Library Management System.<br>• Wrote Complex SQL queries to output multiple required scenarios.<br>• Built Custom UI using CSS3 and HTML5 templates.",
+            "description":"• Developed a PHP and JS based Online Library Management System.<br>• Wrote Complex SQL queries to output multiple required scenarios.<br>• Built Custom UI using CSS3 and HTML5 templates.<br><br><br><br>",
             "fromDate": "January, 2016",
             "toDate": "May, 2016"
         },
@@ -82,7 +82,7 @@ angular.module('myPortfolio').controller('portfolioController', ['$scope', funct
             "company":"NJIT",
             "info":"#",
             "thumbnail":"assets/thumbnails/JainamShah_AppLads.png",
-            "description":"• Built a slick & smooth Android Weather Application on Hybrid Ionic Framework.<br>• Animated & swift UI for about 300 cities weather info based on user location.",
+            "description":"• Built a slick & smooth Android Weather Application on Hybrid Ionic Framework.<br>• Animated & swift UI for about 300 cities weather info based on user location.<br><br><br><br><br>",
             "fromDate": "January, 2016",
             "toDate": "May, 2016"
         },
