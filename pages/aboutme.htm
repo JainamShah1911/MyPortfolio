@@ -1,9 +1,35 @@
-<div class="scrolling">
+<!--<div class="scrolling">
     <div class="aboutme" ng-repeat="(q,a) in questionaire">
             <div class="q">
                 >_ {{name}}.{{q}}</br>
                 <span ng-class="answer" style="color:#ccc;"> => '{{a}}' </br></span>
                 <br>
             </div>
+    </div>
+</div>-->
+<div class="row">
+    <div class="col-md-2">
+        <h4 class="skillhead">Frontend</h4>
+        <span ng-repeat="s in frontend">{{s}}<br /></span>
+    </div>
+    <div class="col-md-2">
+        <h4 class="skillhead">Backend</h4>
+        <span ng-repeat="b in backend">{{b}}<br /></span>
+    </div>
+    <div class="col-md-2">
+        <h4 class="skillhead">Framework & Web Services</h4>
+        <span ng-repeat="f in framework">{{f}}<br /></span>
+    </div>
+    <div class="col-md-2">
+        <h4 class="skillhead">Data Base/ Server</h4>
+        <span ng-repeat="data in database">{{data}}<br /></span>
+    </div>
+    <div class="col-md-2">
+        <h4 class="skillhead">Web Tools</h4>
+        <span ng-repeat="tool in webtools">{{tool}}<br /></span>
+    </div>
+    <div class="col-md-2">
+        <h4 class="skillhead">Web API / Design</h4>
+        <span ng-repeat="web in webapi">{{web}}<br /></span>
     </div>
 </div>

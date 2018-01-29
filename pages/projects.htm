@@ -1,13 +1,22 @@
-
+<head>
+    <style>
+        div a img{
+        
+            display:none;
+        }
+    </style>
+</head>
 <div class="scrollPane">
 <div class="row">
     <div ng-repeat="project in projects">
         <div class="clearfix" ng-if="$index % 3 == 0"></div>
-        <div style="background-color:grey;border: 2px solid;border-color: black;" class="col-md-4">
-              <a href="{{project.info}}" target="_blank"><h4><b><u>{{project.title}}</u></b>, <i><u>{{project.company}}</u></i></h4></a>
-              <p ng-bind-html="project.description | unsafe"</p>
-              <h5>{{project.fromDate}} - {{project.toDate}}</h5>
+<a href="{{project.info}}" target="_blank">
+        <div style="background-color:rgb(70, 70, 70);width: 310px;height:328px;margin: 12px;box-shadow: 0px 0px 8px 0px grey;" class="col-md-4">
+              <h4><b><u>{{project.title}}</u></b>, <i><u>{{project.company}}</u></i></h4>
+ 	      <h5>{{project.fromDate}} - {{project.toDate}}</h5>
+              <p style="text-align: left;" ng-bind-html="project.description | unsafe"</p>
         </div>
+</a>
     </div>
 </div>
 </div>

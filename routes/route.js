@@ -14,7 +14,7 @@ angular.module('myPortfolio').config(function($routeProvider){
             controller: 'portfolioController'
     })
     
-        .when ('/aboutme', {
+        .when ('/skills', {
         
             templateUrl: 'pages/aboutme.htm',
             controller: 'aboutmeController'

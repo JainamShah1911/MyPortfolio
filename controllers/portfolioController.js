@@ -3,31 +3,41 @@ angular.module('myPortfolio').controller('portfolioController', ['$scope', funct
     $scope.name = 'JS';
     
     $scope.experience = [
-        
+        {
+            "title":"Software Developer",
+            "company":"Schmitt & Associates Technologies",
+            "info":"http://www.sna-tech.com/about/",
+            "thumbnail":"http://sna-tech.com/wp-content/uploads/2014/08/logo_final_72_white.png",
+            "location":"Newark, New Jersey",
+            "fromDate": "Jan, 2017",
+            "toDate": "Present",
+            "work": "<b>Technology / Framework / Tools :<b><br>Scala, Java, Play framework, AngularJS, Angular4, Amazon AWS, Java Beans, HTML, Javascript, Jquery, CSS, Bootstrap, Material Design, Angular CLI, Snap CI, Circle CI, MySQL, API Calls and formatting(Google Maps, Twitter, FEMA), Android<br><b>Accomplishments:<b><br>• Working on all domains of the firm as a Full Stack Engineer.<br>•  Currently developing an interface called CurrantGrid with Scala Web framework & Angular JS.<br>• The backend of the system is being developed using JavaBean Play Framework.<br>• Working on a template in Angular 4 Using Material Design for UI.<br>• Implemented Twitter-based social network using Twitter API.<br>• Manipulating Google map markers and get them set to a particular latitude-longitude position using Google MAP API<br>• Implementation of user role-based page permissions on a website using the dynamic deadbolt.<br>• Writing complex queries using java bean and play framework.<br>•  Using of REST API of FEMA database to get data from government database to my local database.<br>•  Working on Android application with Google Map API and AWS integration.<br>"
+        },
         {
             "title":"Software Engineer",
-            "company":"Hilin Life Products",
+            "company":"Hilin Life Products Inc",
             "info":"https://www.knowhen.com/about-us",
             "thumbnail":"assets/thumbnails/JainamShah_Hilinlife.png",
             "location":"Newark, New Jersey",
             "fromDate": "June, 2016",
-            "toDate": "Present"
-        },
-      
-        {
-            "title":"Software Developer",
-            "company":"Schmitt & Associates",
-            "info":"http://www.sna-tech.com/about/",
-            "thumbnail":"http://sna-tech.com/wp-content/uploads/2014/08/logo_final_72_white.png",
-            "location":"Newark, New Jersey",
-            "fromDate": "November, 2016",
-            "toDate": "Present"
+            "toDate": "Jan, 2017"
         }
     ]; 
+    
     
     $scope.projects = [
         
         {
+            "title":"CurrantGrid",
+            "company":"S & A Technologies",
+            "info":"https://app.currantgrid.com/",
+            "thumbnail":"assets/thumbnails/JainamShah_knowhen.png",
+            "description":"• CurrantGRID Incident Management System.<br>• Capable of delivering support for disaster response and recovery, command center operations, and VOST, as well as everyday municipal management.<br>• Integrating the latest technologies to leverage social reporting, workflow and team management, and GPS-enabled mapping – all the tools a modern OEM facility needs. CurrantGRID is available anywhere from any device.",
+            "fromDate": "Jan, 2017",
+            "toDate": "Present"
+        },
+
+	{
             "title":"Knowhen.com",
             "company":"Hilin Life Products",
             "info":"https://www.knowhen.com/",

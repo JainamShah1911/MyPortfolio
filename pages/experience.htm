@@ -1,15 +1,18 @@
 
-    <div class="scrollPane">
-            <div class="media" ng-repeat="exp in experience">
-              <div class="media-left media-middle">
+    <div>
+            <div class="row">
+                <div class="col-md-6" ng-repeat="exp in experience">
                 <a href="{{exp.info}}">
-                  <img class="media-object" src="{{exp.thumbnail}}" alt="image">
+                  <img style="height:100px;margin-bottom:10px;margin-top: 20px;" src="{{exp.thumbnail}}" alt="image">
                 </a>
-              </div>
-              <div class="media-body">
+                <br>
+                <div class="media-body">
                   <h4><b>{{exp.title}}</b> @ {{exp.company}}</h4>
                   <h5><b>{{exp.location}}</b></h5>
                   <h5>{{exp.fromDate}} - {{exp.toDate}}</h5>
-              </div>
+                   <!-- <p style="text-align:left" ng-bind-html="exp.work | unsafe"></p>-->
+                </div>
+                </div>
             </div>
+            
      </div>
